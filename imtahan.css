@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin{
+    width: 28%;
+    height: 270px;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    box-shadow: rgba(0, 0, 0, 0.76) 0px 22px 70px 4px;
+    border-radius: 7px;
+    /* display: none; */
+}
+.signin h1{
+    margin-bottom: 25px;
+}
+.signin input{
+    width: 75%;
+    padding: 7px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+}
+.signin button{
+    width: 75%;
+    padding: 7px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 7px;
+    background-color: green;
+    color: white;
+}
+
+.test{
+    width: 60%;
+    height: 55vh;
+    background-color: rgba(0, 0, 255, 0.74);
+    border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ilkhisse{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    color: white;
+    filter: blur(4px);
+}
+.question{
+    width: 90%;
+    min-height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 5.95px 5.95px 3.6px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.answer{
+    width: 45%;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    border:1px solid white;
+    border-radius: 7px;
+}
+.saylar{
+    width: 10%;
+    height: 45px;
+    border-radius: 100%;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+}
+.back{
+    width: 11%;
+    height: 45px;
+    border-radius: 100%;
+    font-size: 40px;
+}
+.next{
+    width: 11%;
+    height: 45px;
+    border-radius: 100%;
+    font-size: 40px;
+}
+.ikincihisse{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    color: white;
+}
+.saat{
+    width: 90%;
+    height: 30px;
+    border:2px solid blue;
+    border-radius: 7px;
+}
+.nm{
+    width: 80%;
+}
+.srnm{
+    width: 80%;
+}
+.go{
+    width: 40%;
+    height: 60px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.stop{
+    width: 40%;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.result1{
+    width: 40%;
+    height: 30vh;
+    background-color: rgba(0, 0, 255, 0.74);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.76) 0px 22px 70px 4px;
+    position: absolute;
+}
+.result1 h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.result1 h2{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+.result1 h3{
+    margin-bottom: 10px;
+}
+.result1 button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 460px;
+}
+.saat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}

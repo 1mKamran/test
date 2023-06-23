@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Front-end/CSS/imtahan.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Imtahan</title>
+</head>
+<body>
+    
+    <section>
+        <div class="signin">
+        <h1>Qeydiyyat</h1>
+            <input type="name" placeholder="Ad" class="name">
+            <input type="text" placeholder="Soyad" class="surname">
+            <input type="password" placeholder="Parol" class="pswrd" name="UserPassword"><i class="fa-solid fa-eye-slash show"></i>
+            <button class="giris">Davam et</button>
+        </div>
+        <div class="test">
+            <div class="ilkhisse">
+                <div class="question"></div>
+                <div class="answer" id="a1">A)</div>
+                <div class="answer" id="a2">B)</div>
+                <div class="answer" id="a3">C)</div>
+                <div class="answer" id="a4">D)</div>
+                <button class="saylar">1</button>
+                <button class="saylar">2</button>
+                <button class="saylar">3</button>
+                <button class="saylar">4</button>
+                <button class="saylar">5</button>
+                <button class="saylar">6</button>
+                <button class="saylar">7</button>
+                <button class="saylar">8</button>
+                <button class="saylar">9</button>
+                <button class="saylar">10</button>
+                <button class="back"><i class="fa-solid fa-caret-left"></i></button><button class="next"><i class="fa-solid fa-caret-right"></i></button>
+            </div>
+            <div class="ikincihisse">
+                <h2><i class="fa-solid fa-clock-rotate-left"></i> Imtahanin Bitme Vaxti</h2>
+                <div class="saat">
+                    <h5 class="minute">10</h5>
+                    <h5>:</h5>
+                    <h5 class="second">00</h5>
+                </div>
+                <h1 style="color: blue;" class="say">En az duzgun verilmeli Cavab sayi: 8</h1>
+                <div class="nm">Ad: </div>
+                <div class="srnm">Soyad: </div>
+                <button class="go">Bashla</button>
+                <button class="stop">Dayandir</button>
+            </div>
+        </div>
+        <div class="result1">
+            <h1>Netice</h1>
+            <h2 class="netice"></h2>
+            <h3 id="b1">Duzgun cavab: <span>0</span></h3>
+            <h3 id="b2">Sehv cavab: <span>0</span></h3>
+            <h3 id="b3">Cavablandirimlamish: <span>10</span></h3>
+            
+        </div>
+
+
+
+    </section>
+    
+    <script src="/Front-end/JavaScript/imtahan.js"></script>
+</body>
+</html>
